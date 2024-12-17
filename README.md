@@ -1,13 +1,33 @@
 # final_project
-透過機器學習模型，預測癌症相關疾病與藥物之間的關聯。具體來說，它使用基於癌症疾病和藥物的數據來訓練一個神經網絡模型，該模型會預測特定藥物是否有效對應於某些癌症疾病。這是一個多標籤分類問題，其中每個癌症疾病可能會對應多個藥物，並且每個藥物可能治療多個癌症。
+We want to predict the relationship between cancer-related diseases and drugs, and deep learning can help. Deep learning models are trained using data based on cancer diseases and drugs to predict whether specific drugs are effective for certain cancer diseases, where each cancer disease may respond to multiple drugs and each drug may treat multiple cancers.
 
-程式流程簡述：
-載入數據： 讀取有關疾病、藥物和疾病與藥物映射的資料。
-過濾癌症相關疾病： 根據疾病的分類過濾出與癌症相關的疾病。
-找出對應的藥物： 根據疾病與藥物的映射，找出能夠治療癌症疾病的藥物。
-建立特徵矩陣： 提取藥物的靶標並建立一個特徵矩陣，用來訓練神經網絡。
-創建標籤矩陣： 根據疾病與藥物的關聯，創建一個標籤矩陣。
-訓練測試集切割： 將數據集切分為訓練集和測試集。
-建立神經網絡模型： 建立一個前饋神經網絡來預測標籤。
-訓練過程： 在訓練集上進行多次迭代，更新網絡權重。
-模型評估： 在測試集上進行評估，並計算準確度、F1分數和ROC-AUC。
+Steps:
+
+Load data: Read data on diseases, drugs, and disease-drug matches.
+
+Screening for Cancer-Related Diseases: Screens for cancer-related diseases based on disease classification.
+
+Identify corresponding drugs: Identify drugs used to treat cancer diseases based on disease-drug correspondence.
+
+Create Feature Matrix: Extract certain features of a drug and create a feature matrix to train the neural network.
+
+Create Labeling Matrix: Create a labeling matrix based on disease-drug associations.
+
+Training Test Set Cut: Split the data into training set and test set.
+
+Modeling: Build a model to predict.
+
+Training Process: Train the model.
+
+Model Evaluation: Evaluate the model on the test set and calculate the accuracy and ROC-AUC.
+
+Dataset
+
+This dataset is introduced in the paper, MiRAGE: Mining Relationships for Advanced Generative Evaluation in Drug Repositioning. It contains three CSV files: diseaseInfo, drugsInfo, and mapping.
+
+•	diseaseInfo: This tabular dataset contains information on over 1,500 diseases.
+•	drugsInfo: This file provides details on approximately1,400 drugs.
+•	mapping: This file represents known drug interactions and disease interactions.
+
+These datasets are well-suited for exploring various methods for binary prediction of drug-disease interactions. Leveraging these datasets can aid in the exploration and discovery of new drug repositioning opportunities.
+
