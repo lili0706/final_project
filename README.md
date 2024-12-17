@@ -1,7 +1,7 @@
 # final_project
 We want to predict the relationship between cancer-related diseases and drugs, and deep learning can help. Deep learning models are trained using data based on cancer diseases and drugs to predict whether specific drugs are effective for certain cancer diseases, where each cancer disease may respond to multiple drugs and each drug may treat multiple cancers.
 
-##Steps:
+## Steps:
 
 1.Load data: Read data on diseases, drugs, and disease-drug matches.
 
@@ -21,7 +21,7 @@ We want to predict the relationship between cancer-related diseases and drugs, a
 
 9.Model Evaluation: Evaluate the model on the test set and calculate the accuracy and ROC-AUC.
 
-##Dataset
+## Dataset
 
 This dataset is introduced in the paper, MiRAGE: Mining Relationships for Advanced Generative Evaluation in Drug Repositioning. It contains three CSV files: diseaseInfo, drugsInfo, and mapping.
 
