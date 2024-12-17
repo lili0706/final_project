@@ -26,7 +26,9 @@ Dataset
 This dataset is introduced in the paper, MiRAGE: Mining Relationships for Advanced Generative Evaluation in Drug Repositioning. It contains three CSV files: diseaseInfo, drugsInfo, and mapping.
 
 •	diseaseInfo: This tabular dataset contains information on over 1,500 diseases.
+
 •	drugsInfo: This file provides details on approximately1,400 drugs.
+
 •	mapping: This file represents known drug interactions and disease interactions.
 
 These datasets are well-suited for exploring various methods for binary prediction of drug-disease interactions. Leveraging these datasets can aid in the exploration and discovery of new drug repositioning opportunities.
